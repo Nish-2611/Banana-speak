@@ -3,7 +3,7 @@ var txtInput=document.querySelector("#text-input");
 var outputDiv=document.querySelector("#output-text");
 
 function clickhandler() {
-    outputDiv.innerText = "Nishant" + txtInput.Value;
+    outputDiv.innerText = "Nishant" + txtInput.value;
 };
 
-btnTranslate.addEventListener("Click",clickhandler);
+btnTranslate.addEventListener("click",clickhandler);
