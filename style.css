@@ -3,10 +3,14 @@
 
 :root{
   --primary-color:#FBBF24;
+  --secondary-color:#FEF3C7;
 }
 
-
-
+body{
+  max-width: 800px;
+  margin: auto;
+  background-color:var(--secondary-color) ;
+}
 .header{
     background-color:var(--primary-color);
      padding: 0.2rem;
@@ -25,6 +29,8 @@
   font-size: large;
   background-color: var(--primary-color);
   border-radius: 1rem;
+  outline:none;
+  cursor: pointer;
   border: transparent;
 
 
@@ -37,6 +43,7 @@ textarea{
     display: block;
     margin: 1rem;
     padding: 1rem;
+    outline: none;
     border-radius: 1rem;
     border: 0.1rem solid var(--primary-color);
 }
@@ -46,5 +53,7 @@ textarea{
     height: 10vh;
     margin: 1rem;
     padding: 1rem;
-  border: 1px solid black;  
+    border-radius: 1rem;
+    background-color: aliceblue;
+    border: 0.1rem solid var(--primary-color);  
 }
